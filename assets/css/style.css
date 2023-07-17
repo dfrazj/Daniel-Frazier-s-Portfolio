@@ -84,6 +84,19 @@ img {
     padding:16px;
 }
 
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
 main {
 
     display: flex;
