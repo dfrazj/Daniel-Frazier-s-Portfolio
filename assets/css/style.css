@@ -1,0 +1,105 @@
+
+* {
+box-sizing:border-box;
+padding: 0;
+margin: 0;
+
+}
+
+header {
+background-color: lightblue;
+color: white;
+padding: 80px;
+font-family: 'Times New Roman', Times, serif;
+background-size: 1200px;
+}
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    font-size: 22px;
+    padding: 16px;
+}
+
+a{
+    color:white
+}
+body{
+    background-color:white;
+}
+
+h3 {
+    font-family:'Times New Roman', Times, serif ;
+    color:rgb(51, 51, 214);
+    font-size: 18px;
+}
+
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 16px;
+    line-height: 1.2;
+    width:60%;
+    overflow:hidden
+}
+
+.resizeimg1 {
+    width:400px;
+    height: auto;
+    float:left;
+    margin: 0 16px 16px 0px;
+}
+
+.resizeimg2 {
+    width:500px;
+    height: auto;
+} 
+
+.resizeimg3 {
+    width: 250px;
+    height:auto;
+}
+
+li {
+    display: inline-block;
+}
+
+img {
+    display: block
+    vertical-align: middle
+    width: 50%;
+    max-width: 100%;
+    height: auto
+}
+
+
+.card {
+    padding:16px;
+}
+
+main {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%
+}
+
+@media screen and (max-width:992px) {
+    .card {
+        width: 50%;
+    }
+
+}
+@media screen and (max-width:768px) {
+    .card {
+        width:100%;
+    }
+
+}
