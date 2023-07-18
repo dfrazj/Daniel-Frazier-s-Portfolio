@@ -14,6 +14,11 @@ font-family: 'Times New Roman', Times, serif;
 background-size: 1200px;
 }
 
+.About-Me {
+    display: flex;
+    flex-direction:row;
+    padding:1.5rem;
+}
 
 h1{
     font-family: 'Times New Roman', Times, serif;
@@ -23,7 +28,7 @@ h1{
 h2{
     font-family: 'Times New Roman', Times, serif;
     color:black;
-    font-size: 22px;
+    font-size: 2rem;
     padding: 16px;
 }
 
@@ -40,20 +45,24 @@ h3 {
     font-size: 18px;
 }
 
+.About-Me-Content {
+    width:70rem;
+    padding:1rem;
+}
 
 p {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
-    padding: 16px;
+    font-size: 1.5em;
     line-height: 1.2;
-    width:60%;
-    overflow:hidden
+    width:100%;
+}
+.About-Me-Image {
+    min-width:20rem;
+    max-width:30rem;
 }
 
 .resizeimg1 {
-    width:400px;
-    height: auto;
-    float:left;
+    width:100%;
     margin: 0 16px 16px 0px;
 }
 
@@ -72,16 +81,16 @@ li {
 }
 
 img {
-    display: block
-    vertical-align: middle
+    display: block;
+    vertical-align: middle;
     width: 50%;
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 
 .card {
-    padding:16px;
+    padding:1.5rem;
 }
 
 .column {
@@ -98,12 +107,21 @@ img {
 
 
 main {
-
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2%
+    margin-top: 2%;
+    gap:1rem;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: center;
 }
 
+footer {    /*The footer is its own section */
+    background-color:lightblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+/*The media queries help with the different screen sizes */
 @media screen and (max-width:992px) {
     .card {
         width: 50%;
@@ -113,6 +131,21 @@ main {
 @media screen and (max-width:768px) {
     .card {
         width:100%;
+    }
+
+    .About-Me {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:1rem;
+    }
+
+    .About-Me-Content{
+        width:30rem;
+    }
+
+    p{
+        font-size:1em;
     }
 
 }

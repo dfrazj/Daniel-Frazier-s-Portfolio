@@ -2,93 +2,108 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial scale=1.0">
-  <title>Daniel Frazier's Portfolio</title>
-  <link rel="stylesheet" href="assets/css/reset.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+    <meta charset="UTF-8">
+    <title>Daniel Frazier's Portfolio</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
 
-<header>
-<style>
-        header {
-          background-image: url('assets/images/Coding3.jpg');
-        }
-</style>    
-<h1>Daniel Frazier</h1>
-<nav class="links">
-    <ul>
-        <li>
-            <a href="#About-Me">About Me</a>
-        </li>
-        <li>
-            <a href="#Portfolio" >Portfolio</a>
-        </li>
-        <li>
-            <a href="#Contact-Info">Contact Info</a>
-        </li>
-    </ul>
+    <header>
+        <style> 
+            header   
+            {
+            background-image:  /*The background image doesn't change size when the screen changes size, but that's okay */
+            url('assets/images/Coding3.jpg');
+            }
+        </style>
+        <h1>Daniel Frazier</h1>
+        <nav class="links">
+            <ul>
+                <li>   
+                    <a href="#About-Me">About Me</a>    
+                </li>
+                <li>
+                    <a href="#Portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#Contact-Info">Contact Info</a>
+                </li>
+            </ul>
 
-</nav>
-</header>
-
-<body>
-    <section id="About-Me" class="About-Me">
-       <h2>Who Am I?</h2> 
-       
-        <p> <img class="resizeimg1" src="assets/images/IMG_0405.JPG" alt="Daniel Frazier"> My name is Daniel Frazier. I live in Riverside, CA. I graduated from UCLA with a BA in English Literature.
-            I am currently attending UCR Extension and Edx's Full Stack Web Development coding bootcamp. While my
-            background is mostly working with nonprofits, I am excited to pivot in my career and work for a company that
-            will allow me to have financial freedom. I am excited to use what I have learned in my coding bootcamp in a
-            software developer position. 
-        </p> 
-    </section>
-
-
-
-<main id="Portfolio" class="Portfolio">
-    <h2>Portfolio</h2>
-      <section class="card" class="column">
-        <h3>CSS Snippet Cheat Sheet</h3>
-        <a href="https://dfrazj.github.io/Week-2-mini-project/"> <img class="resizeimg2" src="./assets/images/CSS Snippet Cheatsheet.png" alt="CSS Snippet Cheat Sheet" /></a>
-        <p>a CSS focused project</p>
-      </section>
-    <div class="row">
-      <section class="card" class="column">
-            <h3>Placeholder</h3>
-            <a href="#"> <img class="resizeimg3" src="./assets/images/Placeholder Image.png" alt="Placeholder Image" /></a>
-            <p>...</p>
-      </section>
-      <section class="card" class="column">
-        <h3>HTML</h3>
-        <a href="#"> <img class="resizeimg3" src="./assets/images/Placeholder Image.png" alt="Placeholder Image" /></a>
-        <p>A HTML focused project</p>
-      </section>
-</div> 
-<div class="row" > 
-      <section class="card" class="column">
-        <h3>Rock, Paper, Scissors</h3>
-        <a href="https://dfrazj.github.io/week-3-mini-project/"> <img class="resizeimg3" src="./assets/images/Rock Paper Scissors.png" alt="Placeholder Image" /></a>
-        <p>A Javascript focused project</p>
-      </section>
-      <section class="card" class="column">
-        <h3>Placeholder</h3>
-        <a href="#"> <img class="resizeimg3" src="./assets/images/Placeholder Image.png" alt="Placeholder Image" /></a>
-        <p>...</p>
-      </section>
-</div>
-
-</main>
+        </nav>
+    </header>
+        <h2>Who Am I?</h2>
+        <section id="About-Me" class="About-Me">
+            <div class="About-Me-Image"> 
+                <img class="resizeimg1" src="assets/images/IMG_0405.JPG" alt="Daniel Frazier"> 
+            </div>
+            <div class="About-Me-Content">
+            <p>  My name is Daniel
+                Frazier. I live in Riverside, CA. I graduated from UCLA with a BA in English Literature.
+                I am currently attending UCR Extension and Edx's Full Stack Web Development coding bootcamp. While my
+                background is mostly working with nonprofits, I am excited to pivot in my career and work for a company
+                that
+                will allow me to have financial freedom. I am excited to use what I have learned in my coding bootcamp
+                in a
+                software developer position.
+            </p>
+            </div>
+        </section>
 
 
-  <section id="Contact-Info" class="Contact-Info">
-<h2>Contact Info</h2>
-<p> <strong>Phone Number:</strong> 951-295-7748;<strong> Email:</strong> dfrazier.jl@gmail.com</p>
-  </section>
+            <h2>Portfolio</h2>
+        <main id="Portfolio" class="Portfolio">
+            
+            <section class="card" class="column">  
+                <h3>CSS Snippet Cheat Sheet</h3>
+                <a href="https://dfrazj.github.io/Week-2-mini-project/"> <img class="resizeimg2"
+                        src="./assets/images/CSS Snippet Cheatsheet.png" alt="CSS Snippet Cheat Sheet" /></a>
+                <p>a CSS focused project</p>
+            </section>
+            <div class="row">
+                <section class="card" class="column">
+                    <h3>Placeholder</h3>
+                    <a href="#"> <img class="resizeimg3" src="./assets/images/Placeholder Image.png"
+                            alt="Placeholder Image" /></a>
+                    <p>...</p>
+                </section>
+                <section class="card" class="column">
+                    <h3>HTML</h3>
+                    <a href="#"> <img class="resizeimg3" src="./assets/images/Placeholder Image.png"
+                            alt="Placeholder Image" /></a>
+                    <p>A HTML focused project</p>
+                </section>
+            </div>
+            <div class="row">
+                <section class="card" class="column">
+                    <h3>Rock, Paper, Scissors</h3>
+                    <a href="https://dfrazj.github.io/week-3-mini-project/"> <img class="resizeimg3"
+                            src="./assets/images/Rock Paper Scissors.png" alt="Placeholder Image" /></a>
+                    <p>A Javascript focused project</p>
+                </section>
+                <section class="card" class="column">
+                    <h3>Placeholder</h3>
+                    <a href="#"> <img class="resizeimg3" src="./assets/images/Placeholder Image.png"
+                            alt="Placeholder Image" /></a>
+                    <p>...</p>
+                </section>
+            </div>
 
-</body>
+        </main>
+
+
+        
+
+    </body>
+
+    <footer id="Contact-Info" class="Contact-Info">
+            <h2>Contact Info</h2>
+            <p> <strong>Phone Number:</strong> 951-295-7748;<strong> Email:</strong> dfrazier.jl@gmail.com</p>
+    </footer>
+
+    </html>
 
 
 

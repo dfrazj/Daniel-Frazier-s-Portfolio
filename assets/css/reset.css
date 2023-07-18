@@ -1,4 +1,4 @@
-*,
+*,    /*Standard Reset Code */
 *:before,
 *:after{
     margin: 0;
@@ -29,4 +29,3 @@
   ol, ul {
     list-style: none;
   }
-  
